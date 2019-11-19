@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Lab5"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab5">
+				<Option output="/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Lab5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab5"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab5/fast">
+				<Option output="/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Lab5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab5/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Ant.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Ant.h">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Bee.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Bee.h">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Bodyguard.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Bodyguard.h">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Fire.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Fire.h">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Game.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Game.h">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Harvester.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Harvester.h">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Insect.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Insect.h">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Long_Thrower.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Long_Thrower.h">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Ninja.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Ninja.h">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Player.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Player.h">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Short_Thrower.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Short_Thrower.h">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Thrower.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Thrower.h">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Wall.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/Wall.h">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/driver.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Hanifa/CLionProjects/Lab5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
