@@ -61,7 +61,7 @@
       <workItem from="1573670262108" duration="13398000" />
       <workItem from="1573749234976" duration="10812000" />
       <workItem from="1573969392852" duration="60017000" />
-      <workItem from="1574112078469" duration="14475000" />
+      <workItem from="1574112078469" duration="23275000" />
     </task>
     <servers />
   </component>
@@ -78,12 +78,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Game.cpp</url>
-          <line>58</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Game.cpp</url>
-          <line>179</line>
+          <line>191</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>

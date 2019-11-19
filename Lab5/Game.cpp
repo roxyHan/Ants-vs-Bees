@@ -74,7 +74,14 @@ void Game::run() {
                         Ant* one;
                         one = dynamic_cast<Ant *>(*itr);
                         one->action(this);
-                        updateS(*itr);
+                        if (!(*itr)->isAlive()) {
+                            this->board[i].erase((itr--));
+                        }
+                    } else{
+                        if (!(*itr)->isAlive()) {
+                            this->board[i].erase((itr--));
+                            this->num_bees--;
+                        }
                     }
                 }
             }
@@ -92,14 +99,19 @@ void Game::run() {
                         Ant* one;
                         one = dynamic_cast<Ant*>(*itr);
                         (*itr)->damage(1);
+                        if (!(*itr)->isAlive()) {
+                            this->board[i].erase((itr--));
+                        }
+                    } else{
+                        if (!(*itr)->isAlive()) {
+                            this->board[i].erase((itr--));
+                            this->num_bees--;
+                        }
                     }
-                    updateS(*itr);
                 }
             }
             else if (containsBee(square) && !containsAnt(square)){
-                int x = 0;
-                moveBees(&square);
-                int c = 0;
+                moveBeesT(i);
             }
             else{}
         }
@@ -110,7 +122,7 @@ void Game::run() {
         if (num_bees <= 0) {
             winner = true;
             std::cout << "The ants won!" << std::endl;
-        } else if (has_queen) {
+        } else if (reachQueen()) {
             winner = true;
             std::cout << "The bees won!" << std::endl;}
         turn++;
@@ -173,19 +185,36 @@ void Game::addBee(Bee& aBee) {
     this->num_bees++;
 }
 
-void Game::moveBees(std::vector<Insect *> *sq) {
+void Game::moveBees(std::vector<Insect *> sq) {
     std::vector<Insect*> :: iterator itr;
-    for (itr = sq->begin(); itr != sq->end(); itr++) {
+    for (itr = sq.begin(); itr != sq.end(); itr++) {
         if (!((*itr)->isInsectAnAnt()) ) {
             Bee * bee;
             bee = dynamic_cast<Bee*>(*itr);
             bee->move();
             addBee(*bee);
-            //sq->erase(itr);
+            sq.erase(itr--);
+        }
+    }
+}
+
+void Game::moveBeesT(int u) {
+
+    std::vector<Insect*> :: iterator itr;
+    for (itr = this->board[u].begin(); itr != this->board[u].end(); itr++) {
+        if (!((*itr)->isInsectAnAnt()) ) {
+            Bee * bee;
+            bee = dynamic_cast<Bee*>(*itr);
+            bee->move();
+            addBee(*bee);
+            this->board[u].erase(itr--);
+            // sq->erase();
             //--itr;
         }
     }
 }
+
+
 
 std::vector<Insect*> Game::getBoard(int iplace) {
     return this->board[iplace];
@@ -206,4 +235,15 @@ void Game::displayBoard() {
         }
     }
     cout << "\n" << endl;
+}
+
+bool Game::reachQueen() {
+    vector<Insect*> sq = this->board[0];
+    std::vector<Insect*> :: iterator itr;
+    for (itr = sq.begin(); itr != sq.end(); itr++) {
+        if (!((*itr)->isInsectAnAnt())) {
+            return true;
+        }
+    }
+    return false;
 }
