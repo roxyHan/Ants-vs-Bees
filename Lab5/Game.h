@@ -39,16 +39,6 @@ public:
     void addBee(Bee &b);
     Player *getPlayer();
     template <class T>
-    bool addInsect(T a) {
-        if ((a).isAlive()) {
-            int loc = (a).getLocation();
-            board[loc].push_back(&a);
-        }
-        else {
-            return false;
-        }
-    };
-    template <class T>
     void updateS( T& a) {
         if (!(*a).isAlive()) {
             int loc = (*a).getLocation();
@@ -59,9 +49,11 @@ public:
     };
     bool containsAnt(std::vector<Insect*> aI);
     bool containsBee(std::vector<Insect*> bees);
-    void moveBees(std::vector<Insect *> * aI);
+    void moveBeesT(int u);
+    void moveBees(std::vector<Insect *> aI);
     std::vector<Insect*> getBoard(int i);
     void displayBoard();
+    bool reachQueen();
 
 };
 
