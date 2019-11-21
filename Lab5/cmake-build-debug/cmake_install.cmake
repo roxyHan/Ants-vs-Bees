@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Hanifa/CLionProjects/Lab5
+# Install script for directory: /mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

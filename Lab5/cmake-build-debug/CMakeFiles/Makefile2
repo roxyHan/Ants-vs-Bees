@@ -54,10 +54,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Hanifa/CLionProjects/Lab5
+CMAKE_SOURCE_DIR = /mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,7 +74,7 @@ clean: CMakeFiles/Lab5.dir/clean
 CMakeFiles/Lab5.dir/all:
 	$(MAKE) -f CMakeFiles/Lab5.dir/build.make CMakeFiles/Lab5.dir/depend
 	$(MAKE) -f CMakeFiles/Lab5.dir/build.make CMakeFiles/Lab5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target Lab5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target Lab5"
 .PHONY : CMakeFiles/Lab5.dir/all
 
 # Include target in all.
@@ -84,9 +84,9 @@ all: CMakeFiles/Lab5.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Lab5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/cmake-build-debug/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Lab5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Hanifa/CLionProjects/Lab5/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Lab5.dir/rule
 
 # Convenience name for target.

@@ -15,12 +15,12 @@ Thrower::Thrower(int p) : Ant(p) {
 void Thrower::action(Game *game) {
     int p = this->getLocation();
     std::vector<Insect*> square = game->getBoard(p);
-    bool find_a_bee = false;
+    //bool find_a_bee = false;
     std::vector<Insect*>::iterator itr;
     for (itr = square.begin(); itr != square.end(); itr++) {
-        if (!((*itr)->isInsectAnAnt() && find_a_bee)) {
+        if (!((*itr)->isInsectAnAnt())) {
             (*itr)->damage(1);
-            find_a_bee = true;
+           // find_a_bee = true;
         }
     }
 }

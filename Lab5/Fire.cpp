@@ -20,6 +20,8 @@ void Fire::action(Game *game) {
         for (itr = square.begin(); itr != square.end(); itr++) {
             if (!((*itr)->isInsectAnAnt())) {
                 (*itr)->damage(0);
+                square.erase(itr--);
+                game->updateBeesCount(-1);
             }
         }
     }

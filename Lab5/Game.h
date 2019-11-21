@@ -35,8 +35,10 @@ public:
 
     // methods
     void run();
+    int getNumBees();
+    void updateBeesCount(int n);
     void addAnt(Ant& a);
-    void addBee(Bee &b);
+    void addBee(Bee& b);
     Player *getPlayer();
     template <class T>
     void updateS( T& a) {
@@ -47,10 +49,10 @@ public:
         else {
         }
     };
+    void upBoard();
     bool containsAnt(std::vector<Insect*> aI);
     bool containsBee(std::vector<Insect*> bees);
     void moveBeesT(int u);
-    void moveBees(std::vector<Insect *> aI);
     std::vector<Insect*> getBoard(int i);
     void displayBoard();
     bool reachQueen();

@@ -7,18 +7,19 @@
 
 
 #include "Insect.h"
-#include "Ant.h"
+//#include "Ant.h"
 
-class Ant;
+//class Ant;
 class Game;
 
 class Bee : public Insect{
 
 public:
     Bee(int place);
-    //Bee(const Bee& another);
+    Bee(const Bee& another);
+    //Bee& operator=(const Bee& b);
+    void copy(const Bee& bee);
     ~Bee();
-
     // methods
     void action(Game* game);
     void move();

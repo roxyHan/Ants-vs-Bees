@@ -43,6 +43,16 @@ int Insect::getArmor() {
  * @return
  */
 bool Insect::isAlive() {
+   /** if (this->name == "Fire") {
+        if (this->armor < 0 && this->name != "Queen"){
+            this->status = false;
+        }
+    }*/
+    //else if (this->name != "Fire") {
+        if (this->armor <= 0 && this->name != "Queen"){
+            this->status = false;
+        }
+    //}
     return this->status;
 }
 

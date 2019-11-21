@@ -6,41 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/Hanifa/CLionProjects/Lab5/Ant.h
+/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/Ant.h
 Insect.h
-/mnt/c/Users/Hanifa/CLionProjects/Lab5/Insect.h
+/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/Insect.h
 
-/mnt/c/Users/Hanifa/CLionProjects/Lab5/Bee.h
+/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/Bee.h
 Insect.h
-/mnt/c/Users/Hanifa/CLionProjects/Lab5/Insect.h
-Ant.h
-/mnt/c/Users/Hanifa/CLionProjects/Lab5/Ant.h
+/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/Insect.h
 
-/mnt/c/Users/Hanifa/CLionProjects/Lab5/Game.cpp
+/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/Game.cpp
 iostream
 -
 Game.h
-/mnt/c/Users/Hanifa/CLionProjects/Lab5/Game.h
+/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/Game.h
 Bee.h
-/mnt/c/Users/Hanifa/CLionProjects/Lab5/Bee.h
+/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/Bee.h
 
-/mnt/c/Users/Hanifa/CLionProjects/Lab5/Game.h
+/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/Game.h
 vector
 -
 Insect.h
-/mnt/c/Users/Hanifa/CLionProjects/Lab5/Insect.h
+/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/Insect.h
 Bee.h
-/mnt/c/Users/Hanifa/CLionProjects/Lab5/Bee.h
+/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/Bee.h
 Ant.h
-/mnt/c/Users/Hanifa/CLionProjects/Lab5/Ant.h
+/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/Ant.h
 Player.h
-/mnt/c/Users/Hanifa/CLionProjects/Lab5/Player.h
+/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/Player.h
 
-/mnt/c/Users/Hanifa/CLionProjects/Lab5/Insect.h
+/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/Insect.h
 string
 -
 
-/mnt/c/Users/Hanifa/CLionProjects/Lab5/Player.h
+/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/Player.h
 Ant.h
-/mnt/c/Users/Hanifa/CLionProjects/Lab5/Ant.h
+/mnt/c/Users/Hanifa/Documents/GitHub/Ants-vs-Bees/Lab5/Ant.h
 
